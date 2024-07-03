@@ -1,0 +1,16 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+.grid {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    flex: 1 0 auto;
+}
+h1, button, .container {
+    margin: 10px;
+}
